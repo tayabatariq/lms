@@ -9,6 +9,7 @@
             background-image: url(img/img.png);
             background-repeat: no-repeat;
             background-size:cover ;
+            background-position: center;
         }
         #navigationbar{
             display: flex;
@@ -26,29 +27,28 @@
         .primary2{
             margin: 40px 40px;
             flex: auto;
+            letter-spacing: 1.8px;
         }
-        ul{
-            padding: 4px 9px;
-        }
-        li{
-            text-decoration: none;
+    nav ul{
+        float: right;
+        margin: 33px 4px;
+    }
+    nav li{
+            display: inline-block;
             list-style: none;
-            padding:   15px;
-            font-family: Arial, Helvetica,sans-serif;
-            width: 80px;
-            font-size: 20px;
         }
-        li:hover{
-            color: black;
-            background-color: white;
-            font-family: Arial, Helvetica,sans-serif;
-            border-radius: 100px;
-            width: 70px;
-            height: 15px;
-            font-size: 20px;
-            border: 2px solid rgb(10, 4, 39);
+        nav ul li a{
+            font-size: 15px;
+            text-transform: uppercase;
+            padding: 30px 30px;
+            color: rgb(248, 239, 239);
+            text-decoration: none;
+            
         }
-
+ nav li a:hover{
+    color: rgba(160, 160, 240, 0.767);
+    transition: all 0.7sec ease 0%;
+ }
         
 #seconddiv{
   position: relative;
@@ -93,11 +93,11 @@ h1{
           </div>
           <div class="primary">
             <ul>
-                <li class="item">Home</li>
-                <li class="item">Courses</li>
-                <li class="item">About</li>
-                <li class="item">Contact</li>
-                <li class="item">Srvices</li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Srvices</a></li>
             </ul>
           </div>
         </nav>
