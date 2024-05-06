@@ -7,18 +7,23 @@
     <style >
         *{
             background-color: rgb(21, 121, 214);
+         
        
         }
         #maindiv{
             display: flex;
             font-family:Verdana, Geneva, Tahoma, sans-serif;
         }
+        body{
+          
+            overflow-x: hidden;
+        }
         .div{
             display: inline-block;
             margin: 100px 100px;
             background-color:white;
             display: inline-block;
-            width: 300px;
+            /* width: 280px; */
             height: 450px;
             box-shadow: 10px 20px 60px  rgb(1, 47, 90);
             padding: 30px 90px;
@@ -57,8 +62,8 @@
      }
      h1{
         color: white;
-        font-size: 100px;
-        margin: 180px 90px;
+        font-size: 90px;
+        margin: 180px 100px;
     
     
     }
@@ -67,15 +72,21 @@
 </head>
 <body>
     <div id="maindiv">
+        <form action="#">
+        
         <div class="div">
+           
+          
             <h2>Registration</h2>
+           
             <input type="text" placeholder="Enter your name...">
             <input type="text" placeholder="Enter your Email... ">
             <input type="text" placeholder="Enter your Password...">
             <input type="text" placeholder="confirm password...">
             <p><input type="checkbox" > I accept all term & conditions</p>
             <button type="submitt" class="btn"> Register Now</button><br><br>
-            <p>Already have an account? <a href="http://">Login now</a></p>  
+            <p>Already have an account? <a href="http://">Login now</a></p> 
+        </form> 
         </div>
         <div >
             <h1>BEAUTIFUL SIGN UP FORM</h1>
