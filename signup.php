@@ -4,92 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up</title>
-    <style >
-        *{
-            background-color: rgb(21, 121, 214);
-         
-       
-        }
-        #maindiv{
-            display: flex;
-            font-family:Verdana, Geneva, Tahoma, sans-serif;
-        }
-        body{
-          
-            overflow-x: hidden;
-        }
-        .div{
-            display: inline-block;
-            margin: 100px 100px;
-            background-color:white;
-            display: inline-block;
-            /* width: 280px; */
-            height: 450px;
-            box-shadow: 10px 20px 60px  rgb(1, 47, 90);
-            padding: 30px 90px;
-            border-radius: 10px;
-            text-align: center;
-
-        }
-       
-        input,p,a,button,h2{
-            background-color: white;
-            color: black;
-        }
-       input{
-        border-radius: 4px;
-        border: 1px solid rgba(0, 0, 0, 0.603);
-        padding: 10px 20px;
-        margin: 5px;
-       }
-     .btn{
-        background-color: rgb(21, 121, 214);
-        color:white;
-        padding:10px 20px ;
-        margin: 10px;
-        border: 0px solid rgb(21, 121, 214) ;
-        border-radius: 4px;
-        width: 220px;
-
-     }
-     .btn:hover{
-        background-color: rgb(12, 109, 199);
-
-     }
-     a{
-        text-decoration: none;
-        color: rgb(21, 121, 214);
-     }
-     h1{
-        color: white;
-        font-size: 90px;
-        margin: 180px 100px;
-    
-    
-    }
-        
-    </style>
+   <link rel="stylesheet" href="css/indexsign.css">
 </head>
 <body>
+   
     <div id="maindiv">
         <form action="#">
         
         <div class="div">
-           
-          
             <h2>Registration</h2>
-           
-            <input type="text" placeholder="Enter your name...">
+            <input type="text" placeholder="Enter your Name...">
             <input type="text" placeholder="Enter your Email... ">
-            <input type="text" placeholder="Enter your Password...">
-            <input type="text" placeholder="confirm password...">
-            <p><input type="checkbox" > I accept all term & conditions</p>
+            <input type="password" placeholder="Enter your Password...">
+            <input type="password" placeholder="Confirm Password...">
+            <p><input type="checkbox" > I accept all term&conditions</p>
             <button type="submitt" class="btn"> Register Now</button><br><br>
-            <p>Already have an account? <a href="http://">Login now</a></p> 
+            <p>Already have an account? <br><a href="http://">Login now</a></p> 
+           <p class="p2"><a href="index.php">Go to Home</a></p> <br><br>
         </form> 
         </div>
         <div >
-            <h1>BEAUTIFUL SIGN UP FORM</h1>
+            <h1>  Welcome by VU LEARNERS  </h1>
         </div>
     </div>
 

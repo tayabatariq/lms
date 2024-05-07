@@ -1,0 +1,87 @@
+    
+        #maindiv{
+            display: flex;
+            font-family:Verdana,  Tahoma, sans-serif;
+        }
+        body{
+          background-image: linear-gradient(rgba(239, 245, 252, 0.247),rgba(250, 250, 250, 0.438)), url(workspace-766045_1280.jpg);
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+            overflow-x: hidden;
+            overflow-y: hidden;
+        }
+        .div{
+            display: inline-block;
+            margin: 35px 50px;
+            background-color:white;
+            display: inline-block;
+            /* width: 280px; */
+            height: 500px;
+            box-shadow: 5px 10px 20px  rgb(21, 75, 110);
+            padding: 15px 90px;
+            border-radius: 10px;
+            text-align: center;
+
+        }
+       
+        input,p,a,button,h2{
+            background-color: white;
+            color: black;
+        }
+       input{
+        border-radius: 4px;
+        border: 1px solid rgba(0, 0, 0, 0.603);
+        padding: 10px 20px;
+        margin: 5px;
+       }
+     .btn{
+        background-color: rgb(4, 55, 88);
+        color:white;
+        padding:10px 20px ;
+        margin: auto;
+        border: 1px solid rgb(2, 33, 53) ;
+        border-radius: 4px;
+        width: 220px;
+
+     }
+     .btn2{
+        background-color: rgb(12, 115, 211);
+        color:white;
+        padding:10px 20px ;
+        margin: auto;
+        border: 1px solid rgb(4, 55, 88) ;
+        border-radius: 4px;
+        width: 220px;
+     }
+     .btn:hover{
+       background-color: rgb(4, 37, 59);
+
+     }
+     a{
+        text-decoration: none;
+        color: rgb(21, 121, 214);
+     }
+     h1{
+        color: rgb(15, 51, 75);
+        font-size: 100px;
+        margin: 140px 100px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+    h2{
+        color: rgb(4, 55, 88);
+    }
+    
+  
+    .p2{
+        font-size: 15px;
+        font-family: sans-serif;
+        border: 2px solid rgb(4, 55, 88);
+        border-radius: 4px;
+        display: inline;
+        padding: 4px 3px;
+        margin: 2px 2px;
+    }
+    p a{
+        color: rgb(6, 69, 110);
+    }
