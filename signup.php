@@ -18,7 +18,7 @@
             <input type="password" placeholder="Confirm Password...">
             <p><input type="checkbox" > I accept all term&conditions</p>
             <button type="submitt" class="btn"> Register Now</button><br><br>
-            <p>Already have an account? <br><a href="http://">Login now</a></p> 
+            <p>Already have an account? <br><a href="login.php">Login now</a></p> 
            <p class="p2"><a href="index.php">Go to Home</a></p> <br><br>
         </form> 
         </div>
