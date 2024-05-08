@@ -10,7 +10,6 @@
    
     <div id="maindiv">
         <form action="#">
-        
         <div class="div">
             <h2>Registration</h2>
             <input type="text" placeholder="Enter your Name...">
