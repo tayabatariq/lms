@@ -9,15 +9,15 @@
 <body>
    
     <div id="maindiv">
-        <form action="#">
+        <form action="signupProcess.php">
         <div class="div">
             <h2>Registration</h2>
-            <input type="text" placeholder="Enter your Name...">
-            <input type="text" placeholder="Enter your Email... ">
+            <input type="text" id="name" placeholder="Enter your Name..." onfocusout="validateInputs()">
+            <input type="text" id="email" placeholder="Enter your Email... " onfocusout="validateInputs()">
             <input type="password" placeholder="Enter your Password...">
             <input type="password" placeholder="Confirm Password...">
             <p><input type="checkbox" > I accept all term&conditions</p>
-            <button type="submitt" class="btn"> Register Now</button><br><br>
+            <button type="submitt" class="btn" onclick="validateInputs()"> Register Now</button><br><br>
             <p>Already have an account? <br><a href="login.php">Login now</a></p> 
            <p class="p2"><a href="index.php">Go to Home</a></p> <br><br>
         </form> 
@@ -28,4 +28,5 @@
     </div>
 
 </body>
+<script type="text/javascript" src="js/script.js"></script>
 </html>
