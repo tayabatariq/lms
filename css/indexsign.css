@@ -4,7 +4,7 @@
             font-family:Verdana,  Tahoma, sans-serif;
         }
         body{
-          background-image: linear-gradient(rgba(239, 245, 252, 0.247),rgba(250, 250, 250, 0.438)), url(workspace-766045_1280.jpg);
+          background-image: linear-gradient(rgba(87, 126, 141, 0.555),rgba(6, 92, 141, 0.863)), url(workspace-766045_1280.jpg);
           background-size: cover;
           background-position: center;
           background-repeat: no-repeat;
@@ -18,7 +18,7 @@
             display: inline-block;
             /* width: 280px; */
             height: 500px;
-            box-shadow: 5px 10px 20px  rgb(21, 75, 110);
+            box-shadow: 5px 10px 20px  rgb(9, 54, 83);
             padding: 15px 90px;
             border-radius: 10px;
             text-align: center;
@@ -36,7 +36,7 @@
         margin: 5px;
        }
      .btn{
-        background-color: rgb(4, 55, 88);
+        background-color:rgba(23, 79, 117, 0.911) ;
         color:white;
         padding:10px 20px ;
         margin: auto;
@@ -45,17 +45,9 @@
         width: 220px;
 
      }
-     .btn2{
-        background-color: rgb(12, 115, 211);
-        color:white;
-        padding:10px 20px ;
-        margin: auto;
-        border: 1px solid rgb(4, 55, 88) ;
-        border-radius: 4px;
-        width: 220px;
-     }
+   
      .btn:hover{
-       background-color: rgb(4, 37, 59);
+       background-color: rgb(59, 111, 146);
 
      }
      a{
@@ -63,13 +55,13 @@
         color: rgb(21, 121, 214);
      }
      h1{
-        color: rgb(15, 51, 75);
+        color: white;
         font-size: 100px;
         margin: 140px 100px;
         font-family:Verdana, Geneva, Tahoma, sans-serif;
     }
     h2{
-        color: rgb(4, 55, 88);
+        color: rgb(50, 101, 134);
     }
     
   
