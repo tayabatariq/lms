@@ -3,13 +3,14 @@
     padding: 0;
 }
 body{
-   background-image:  linear-gradient(rgba(87, 126, 141, 0.555),rgba(6, 92, 141, 0.863)),url(img/office-925806_1280.jpg);
-    overflow: hidden;
+   background-image: linear-gradient(rgba(87, 126, 141, 0.555),rgba(6, 92, 141, 0.863)),url(image\ for\ login.jpg);
+     overflow: hidden;
 }
 .main{
     display: flex;
 
 }
+
 
 .container{
     display: inline-block;

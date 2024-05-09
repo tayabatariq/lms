@@ -14,8 +14,8 @@
             <h2>Registration</h2>
             <input type="text" id="name" placeholder="Enter your Name..." onfocusout="validateInputs()">
             <input type="text" id="email" placeholder="Enter your Email... " onfocusout="validateInputs()">
-            <input type="password" placeholder="Enter your Password...">
-            <input type="password" placeholder="Confirm Password...">
+            <input type="password"  id="password" placeholder="Enter your Password..." onfocusout="validateInputs()">
+            <input type="password"  id="confirmpassword"placeholder="Confirm Password..." onfocusout="validateInputs()">
             <p><input type="checkbox" > I accept all term&conditions</p>
             <button type="submitt" class="btn" onclick="validateInputs()"> Register Now</button><br><br>
             <p>Already have an account? <br><a href="login.php">Login now</a></p> 
@@ -23,7 +23,7 @@
         </form> 
         </div>
         <div >
-            <h1>  Welcome by VU LEARNERS  </h1>
+            <h1>  Welcome to VU LEARNERS  </h1>
         </div>
     </div>
 

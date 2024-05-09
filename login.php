@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login page</title>
-    <link rel="stylesheet" href="indexlogin.css">
+    <link rel="stylesheet" href=" css/indexlogin.css">
 </head>
 <body>
 <form action="#">
@@ -22,7 +22,7 @@
     
     <div class="main2">
         <h1>
-        "VuLearners: Where Knowledge Meets Innovation"
+        VuLearners: Where Knowledge Meets Innovation.
         </h1>
     </div>
     </div>
