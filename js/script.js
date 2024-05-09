@@ -1,11 +1,10 @@
 
 function validateInputs(){
+    let userName = document.getElementById('name');
+    let userEmail = document.getElementById('email');
+    let userPassword = document.getElementById('password');
+    let userconfirmPassword = document.getElementById('confirmpassword');
 
-    var userName = document.getElementById('name');
-    var userEmail = document.getElementById('email');
-    var userPassword = document.getElementById('password');
-    var userconfirmPassword = document.getElementById('confirmpassword');
-    console.log(userName.value, "user" , userEmail.value, "email");
     if(userName.value == ''){
         userName.style.border = "1px solid red";
     }else{
@@ -17,7 +16,7 @@ function validateInputs(){
     }else{
         userEmail.style.border = "1px solid black";
     }
-    if(userPassword.value == '' && userPassword.value =='9' ){
+    if(userPassword.value == '' && userPassword.value.length <= 7){
         userPassword.style.border = "1px solid red";
     }else{
         userPassword.style.border = "1px solid black";
@@ -27,9 +26,21 @@ function validateInputs(){
     }else{
         userconfirmPassword.style.border = "1px solid black";
     }
-
-
 }
+
+function disableSubmit(){
+    let userName = document.getElementById('name');
+    let userEmail = document.getElementById('email');
+    let userPassword = document.getElementById('password');
+    let userconfirmPassword = document.getElementById('confirmpassword');
+    
+    if(userName.value == '' || userEmail.value == '' || userPassword.value == '' || userconfirmPassword.value == ''){
+        alert("Please fill all the required fields");
+        return false;
+    }
+}
+
+
 
 
 
