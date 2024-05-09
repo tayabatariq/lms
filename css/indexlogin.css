@@ -3,8 +3,11 @@
     padding: 0;
 }
 body{
-   background-image: linear-gradient(rgba(87, 126, 141, 0.555),rgba(6, 92, 141, 0.863)),url(image\ for\ login.jpg);
+ background-image: linear-gradient(rgba(87, 126, 141, 0.555),rgba(6, 92, 141, 0.863)),url(imggg.jpg);
      overflow: hidden;
+     background-repeat: no-repeat;
+     background-position: center;
+    background-size: cover;
 }
 .main{
     display: flex;
@@ -14,13 +17,13 @@ body{
 
 .container{
     display: inline-block;
-    margin: 35px 50px;
+    margin: 70px 70px;
     background-color:white;
     display: inline-block;
   
-    height: 500px;
+    height: 450px;
     box-shadow: 5px 10px 20px  rgb(9, 54, 83);
-    padding: 20px 90px;
+    padding: 15px 90px;
     border-radius: 10px;
     text-align: center;
 
@@ -34,30 +37,30 @@ input{
 border-radius: 4px;
 border: 1px solid rgba(0, 0, 0, 0.603);
 padding: 10px 20px;
-margin: 20px;
+margin: 4px;
 }
 .btn{
-background-color:rgba(23, 79, 117, 0.911) ;
+background-color:rgba(16, 75, 114, 0.911) ;
 color:white;
 padding:10px 20px ;
 margin: auto;
 border: 1px solid rgb(2, 33, 53) ;
-border-radius: 4px;
+border-radius: 6px;
 width: 220px;
 
 }
 .btn:hover{
-    background-color:rgba(4, 76, 128, 0.945);
+    background-color:rgba(3, 67, 112, 0.945);
 
 }
 h2{
-    font-size: 30px;
+    font-size: 40px;
 }
 a{
     text-decoration: none;
     list-style: none;
-    background-color:rgba(23, 79, 117, 0.911)  ;
-    color: white;
+  
+    color: rgb(4, 75, 116);
     padding: 2px;
     margin: 3px;
 }
@@ -69,10 +72,10 @@ h1{
 }
 
     .p2{
-        /* font-size: 15px; */
-        /* font-family: sans-serif; */
-        border: 2px solid rgb(4, 55, 88);
-        border-radius: 4px;
+        font-size: 15px;
+        font-family: sans-serif;
+        border: 2px solid rgb(14, 65, 99);
+        border-radius: 6px;
         display: inline;
         padding: 4px 3px;
         margin: 20px 2px;

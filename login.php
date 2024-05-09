@@ -9,12 +9,12 @@
 <body>
 <form action="#">
     <div class="main">
-        <div class="container"><br><br><br>
-            <h2>Registration</h2>
-            <input type="text" placeholder="Enter your Name..."><br>
-            <input type="text" placeholder="Enter your Email..."><br>
+        <div class="container"><br>
+            <h2>Registration</h2><br><br>
+            <input type="text" placeholder="Enter your Name...">
+            <input type="text" placeholder="Enter your Email...">
             <input type="password" placeholder="Enter your Password..."><br><br>
-            <button type="submitt" class="btn" ><a href="#">LOGIN</a></button><br><br><br>
+            <button type="submitt" class="btn" >LOGIN</button><br><br>
             <p class="p2"><a href="index.php">Go to Home</a></p> 
         </div>
     
