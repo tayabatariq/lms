@@ -40,7 +40,25 @@ function disableSubmit(){
     }
 }
 
+    
+if(userName.value == '' && userEmail.value == '' && userPassword.value == '' && userconfirmPassword.value == ''){
+   
+    userName.style.border = "1px solid black";
+    userEmail.style.border = "1px solid black";
+    userPassword.style.border = "1px solid black";
+    userconfirmPassword.style.border = "1px solid black";
 
+}
+function enable(){
+    let check=document.getElementByid("check");
+    let btn=document.getElementByid("btn");
+    if(check.checked){
+        btn.removedAttribute("disabled");
+    }else{
+        btn.disabled="true";
+    }
+
+}
 
 
 
