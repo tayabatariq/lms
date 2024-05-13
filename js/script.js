@@ -1,3 +1,19 @@
+
+function showMessege(){
+    let userPassword=document.getElementById("password");
+    let userconfirmPassword=document.getElementById("confirmpassword");
+    
+    let messegeError=document.getElementById("messege");
+    if(userPassword.value!=userconfirmPassword.value){
+    
+        messegeError.style.display="block";
+    }else{
+        messegeError.style.display="none";
+    }
+    
+}
+
+
 function validateInput(elm){
     console.log(elm.id);
     if(elm.value == ''){
@@ -5,6 +21,11 @@ function validateInput(elm){
     }else{
         elm.style.border = "1px solid black";
     }
+    if(elm.id=="confirmpassword"){
+        showMessege();
+
+    }
+  
 }
 
 function disableSubmit(){
@@ -48,6 +69,5 @@ function enable(){
         btn.disabled="true";
     }
 }
-
 
 
