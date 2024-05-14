@@ -16,12 +16,14 @@
             margin: 35px 50px;
             background-color:white;
             display: inline-block;
-            /* width: 280px; */
-            height: 500px;
+            width: 280px;
+            height: 510px;
             box-shadow: 5px 10px 20px  rgb(9, 54, 83);
-            padding: 15px 90px;
+            padding: 10px 90px;
             border-radius: 10px;
             text-align: center;
+          
+        
 
         }
        
@@ -57,9 +59,9 @@
      h1{
         color: white;
         font-size: 100px;
-        margin: 140px 100px;
+        margin: 120px 100px;
         font-family:Verdana, Geneva, Tahoma, sans-serif;
-    }
+     }
     h2{
         color: rgb(50, 101, 134);
     }
@@ -81,4 +83,9 @@
         color: rgb(4, 49, 80);
         
     }
-  
+  #messege{
+    color: red;
+    font-size: 9px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+  }

@@ -21,7 +21,8 @@ function validateInput(elm){
     }else{
         elm.style.border = "1px solid black";
     }
-    if(elm.id=="confirmpassword"){
+    if(elm.id=="confirmpassword" ||(elm.id=="password" &&  document.getElementById("confirmpassword").value != "")){
+       
         showMessege();
 
     }

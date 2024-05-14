@@ -15,7 +15,7 @@
             <input type="text" id="name" name="userName" placeholder="Enter your Name..." onfocusout="validateInput(this)">
             <input type="text" id="email" name="userEmail" placeholder="Enter your Email... " onfocusout="validateInput(this)">
             <input type="password"  id="password" placeholder="Enter your Password..." onfocusout="validateInput(this)">
-            <span id="messege" style="display:none;">Confirm Password does not match</span>
+            <span id="messege" style="display:none;">Confirm Password does not match.Try again.</span>
             <input type="password"  id="confirmpassword" placeholder="Confirm Password..." onfocusout="validateInput(this)" >
             <p><input type="checkbox" id="check" onchange="enable()"> I accept all term&conditions</p>
             <button type="submitt" class="btn" id="btn"  onclick="return disableSubmit()" disabled="ture"> Register Now</button><br><br>
