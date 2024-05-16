@@ -1,13 +1,23 @@
 <?php 
 
-// when using GET method
-// print($_GET["userName"]);
-// print("<br>");
-// print($_GET["userEmail"]);
+$serverName="localhost";
+$userName="root";
+$userPassword="";
+$dbName="vuLearners";
 
-// When using POST method
-print($_POST["userName"]);
-print("<br>");
-print($_POST["userEmail"]);
+$conn=new mysqli($serverName,$userName,$userPassword,$dbName);
+if($conn->connect_error){
+    print("error");
+}
+$name=$_POST["userName"];
+$userEmail=$_POST["userEmail"];
+$userPassword=$_POST["userPassword"];
+$sql="insert into studentInfo (username,email,password,created_at)values('$name','$userEmail','$userPassword',now())";
+if($conn->query($sql)==true)
+{
+    print("one record inserted successfully");
+}else{
+    echo("error in DB query");
+}
 
 ?>
