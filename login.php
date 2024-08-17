@@ -11,11 +11,11 @@
     <div class="main">
         <div class="container"><br>
             <h2>Registration</h2><br><br>
-            <input type="text" onfocusout="validateInput(this)"name="email"id="email"placeholder="Enter your Email...">
-            <input type="password" onfocusout="validateInput(this)" name="userPassword" id="password" placeholder="Enter your Password...">
+            <input type="text" onfocusout="validateInput(this)"name="email"id="email"placeholder="Enter your Email..." class="inputlogin">
+            <input type="password" onfocusout="validateInput(this)" name="userPassword" id="password" placeholder="Enter your Password..." class="inputlogin" >
           
             <button type="submitt" class="btn" id="btn" onclick="return disableSubmit()">LOGIN</button><br><br>
-            <p class="p2"><a href="index.php">Go to Home</a></p> 
+            <p class="homep"><a href="index.php" class="homep">Go to Home</a></p> 
         </div>
     
 </form>

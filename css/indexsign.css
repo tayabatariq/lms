@@ -4,32 +4,39 @@
             font-family:Verdana,  Tahoma, sans-serif;
         }
         body{
-          background-image: linear-gradient(rgba(87, 126, 141, 0.555),rgba(6, 92, 141, 0.863)), url(workspace-766045_1280.jpg);
-          background-size: cover;
+    background-image: linear-gradient(rgba(4, 73, 100, 0.664),rgba(5, 62, 95, 0.39)) ,url(div2.jpg);
+
+         background-size: cover;
           background-position: center;
           background-repeat: no-repeat;
             overflow-x: hidden;
             overflow-y: hidden;
         }
+        
         .div{
             display: inline-block;
             margin: 35px 50px;
-            background-color:white;
+            background: repeating-linear-gradient(45deg, #036a8aee 10%, #164658fb 20%, #063568 30%);
+
             display: inline-block;
             width: 280px;
             height: 510px;
-            box-shadow: 5px 10px 20px  rgb(9, 54, 83);
+            box-shadow: 5px 10px 20px  rgb(1, 40, 66);
             padding: 10px 90px;
             border-radius: 10px;
             text-align: center;
+            
           
         
 
         }
        
-        input,p,a,button,h2{
-            background-color: white;
-            color: black;
+        input,button{
+         background-color: rgb(6, 47, 94);
+
+            color:#fff;
+            border-radius: 5px;
+
         }
        input{
         border-radius: 4px;
@@ -46,8 +53,14 @@
         border-radius: 4px;
         width: 220px;
 
+     }input::placeholder{
+      color: white;
      }
-   
+   .heading{
+    color: white;
+   font-size: 2rem;
+
+   }
      .btn:hover{
        background-color: rgb(59, 111, 146);
 
@@ -70,17 +83,18 @@
     .p2{
         font-size: 15px;
         font-family: sans-serif;
-        border: 2px solid rgb(4, 55, 88);
+        /* border: 2px solid rgb(4, 55, 88); */
         border-radius: 4px;
         display: inline;
         padding: 4px 3px;
         margin: 2px 2px;
+        color: #063568;
     }
     p a{
-        color: rgb(6, 69, 110);
+        color: #fff
     }
     p a:hover{
-        color: rgb(4, 49, 80);
+        color: #ccc;
         
     }
   #messege{
@@ -88,4 +102,7 @@
     font-size: 9px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 
+  }.term{
+    color: #fff;
   }
+  

@@ -1,0 +1,60 @@
+
+
+.footerconatiner{
+
+    background-color:rgb(3, 44, 90);
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-right: 40px;
+ 
+
+
+}
+
+.logoyoutube img{
+    height:170px ;
+    transition: all 1.5s;
+    margin-left: 20px;
+
+
+}
+.logoyoutube img:hover{
+    height:170px ;
+   transform:  scale(1.2);
+
+
+}
+.imagess{
+    width: 30px;
+    transition: all 0.4s;
+    
+}
+.imagess:hover{
+   transform:  scale(1.5);
+}
+.msg{
+    margin: 50px auto;
+    color: white;
+    font-size: 20px;
+}.msg img{
+    width: 26px;
+
+}.dives3{
+
+    display: flex;
+    flex-direction: row;
+}.mainicon{
+    display: flex;
+    margin-top: 43px ;
+    justify-content: space-around;
+}.copyright{
+    color: white;
+    font-size: 15px;
+    margin-top: 6px;
+}footer{
+display: grid;
+}

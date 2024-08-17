@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(rgba(87, 126, 141, 0.555), rgba(6, 92, 141, 0.863)), url('about.jpg');
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-position: center;
+
+}
+
+#images{
+    height: 400px;
+    width: 600px;
+    margin: 60px 60px;
+    /* padding: 1px 6px; */
+    border-radius: 13px;
+    box-shadow: 30px 30px 70px rgba(1, 17, 24, 0.911);
+    transition: .5s;
+
+}
+#images:hover{
+    transform: scale(1.05);
+    transform-origin: center;
+    
+}#section{
+    display:flex;
+    color: white;
+    overflow: hidden;
+
+   
+}.abouth{
+    color: white;
+    display: flex;
+    text-align: left;
+    margin: 12px 0px;
+    /* padding: 60px 20px; */
+    word-spacing: 10px;
+    font-size: 36px;
+    padding-top: 60px;
+
+}
+.bold{
+    color: rgb(2, 39, 73);
+    border-bottom: 6px solid rgb(2, 39, 73);
+    border-radius: 6px;
+}
