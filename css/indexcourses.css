@@ -1,85 +1,128 @@
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 body{
-   background-color:rgba(4, 25, 49, 0.966);
-   scroll-behavior: smooth;
- 
-   
-}
+   margin: 0;
+   padding: 0;
+   width: 100vw;
+   height: 100vh;
+    background-color: #fff;
 
+}
+.mainlec{
+    display: flex;
+    font-weight: bold;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    color: #252839;
+    font-family: "Roboto Condensed", Sans-serif;
+    flex-wrap: wrap;
+
+
+}
 
 .headp{
-    /* padding: 10px 50px ; */
-    margin-top: 30px;
-    margin-bottom: 20px;
-    color: white;
-    font-size: 20px;
-    font-family: 'Nunito', sans-serif;
-    text-align: center;
-
-}
-.headh1{
-    text-align: center;
- margin-bottom: 50px;
-    color: white;
-    justify-content: center;
-    font-family: 'Nunito', sans-serif;
-    font-size: 60px;
-}.conatinerlecture{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
-    margin: 20px;
-    gap: 20px; /* Adjusted gap for better fit */
-    padding: 30px;
-    /* background-color: aqua; */
-    box-sizing: border-box
-
-}
-.images{
-    width: 400px;
-    aspect-ratio: 1px;
-    transition: transform 0.4s ease;
-}.divlec{
-    background: repeating-linear-gradient(45deg, #036a8aee 10%, #164658fb 20%, #063568 30%);
-border-radius: 10px;
-    border: 2px solid rgb(1, 31, 66);
-    /* margin: 20px; */
-    height: 480px;
-    overflow:hidden ;
-    margin-bottom: 50px;
-    margin-right: 10px;
-
-    
- 
-}p{
     display: flex;
     justify-content: center;
     align-content: center;
-    padding: 20px  10px 5px 10px ;
-    font-family: 'Nunito', sans-serif;
-    font-size: 1.3rem;
-    color: white;
-    letter-spacing: 1px;
-    transition: transform 0.7s ease;
+    margin-top: 90px;
+    font-size: 1.2rem;
 
+}
+.headh4{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 20px;
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 2px;   
+}
+.mainlec {
+    width: 90%;
+    margin: auto;
+}
+.conatinerlecture {
+    display: grid;
+    grid-template-columns: repeat(3,1fr );
+    grid-template-rows: repeat(2,1fr);
+    gap: 30px;
+    padding: 70px;
+    padding-top: 30px;
+    font-family: "Roboto Condensed", Sans-serif !important;
 
-}.lecpara{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    transform: scale(1.05);
-
-}a{
-    text-decoration: none;
-    color: aqua;
-    transform: scale(1.05);
-
-} .images:hover{
-    transform: scale(1.05);
-    transform-origin: center;
-}.divlec:hover p{
-    color: #acacac;
+}
+ .divlec {
+    background-color: #33364b;
+    border-radius: 10px;
+    /* border: 2px solid rgba(37, 48, 61, 0.192); */
+    overflow: hidden;
+    transition: transform 1s ease, box-shadow 0.4s ease;
+    height: 100%;
+}
+.divlec:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+.lecimg {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+.lecimg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 1s ease;
+}
+.lecimg img:hover {
+    transform: scale(1);
+}
+.headlec, .footlec {
+    text-align: center;
+    padding: 20px 20px;
+    transition: color 1s ease;
+}
+.headlec p, .footlec p       {
+   
+    padding-bottom: 10px;
     
- }
+}
+.divlec:hover .headlec p, .divlec:hover .footlec p {
+    color: #ccc;
+}
+.lecpara {
+    transform: scale(1.05);
+}.conatinerlecture a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    transition: color 1s ease;
+}
+.lecpara a:hover {
+    color: #ccc;
+}
+@media (max-width:700px) {
+    .conatinerlecture {
+        grid-template-columns: repeat(2,1fr );
+        gap: 20px;
+        padding: 74px;
+        padding-top: 20px;
+    
+    }
+
+    .headp{      
+        margin-top: 90px;
+        font-size: 0.9rem;
+    
+    }
+    .headh4{
+        
+        margin: 15px;
+        font-size: 2rem;
+          
+    }
+}

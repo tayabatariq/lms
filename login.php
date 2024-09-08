@@ -7,6 +7,8 @@
     <link rel="stylesheet" href=" css/indexlogin.css">
 </head>
 <body>
+    
+    <div class="login">
 <form action="loginprocess.php" method="post">
     <div class="main">
         <div class="container"><br>
@@ -21,9 +23,8 @@
 </form>
     
     <div class="main2">
-        <h1>
-        VuLearners: Where Knowledge Meets Innovation.
-        </h1>
+        <h1>VU Learners: Where Knowledge Meets Innovation.</h1>
+    </div>
     </div>
     </div>
 </body>

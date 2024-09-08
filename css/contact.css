@@ -8,6 +8,7 @@ body{
         background-position: center;
        background-size: cover;
        /* overflow: hidden; */
+       scroll-behavior: smooth;
    
 }
 .contactmain{

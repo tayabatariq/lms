@@ -1,48 +1,52 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body{
- background-image: linear-gradient(rgba(87, 126, 141, 0.555),rgba(6, 92, 141, 0.863)),url(imggg.jpg);
-     overflow: hidden;
-     background-repeat: no-repeat;
-     background-position: center;
-    background-size: cover;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
 }
 
 .main{
     display: flex;
+    background-image: linear-gradient( to right,rgba(141, 138, 138, 0.466),rgba(128, 128, 128, 0.459)),url(imggg.jpg);
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+   background-size: cover;
 
 }
-
 
 .container{
     display: inline-block;
     margin: 70px 70px;
-    background: repeating-linear-gradient(45deg, #036a8aee 10%, #164658fb 20%, #063568 30%);
-
+    /* background: linear-gradient(45deg, #05a1d1e8 10%, #20718ffb 20%, #0a4686bb 60%); */
+background-color: #fff;
     display: inline-block;
   
-    height: 450px;
-    box-shadow: 5px 10px 20px  rgb(9, 54, 83);
-    padding: 15px 90px;
+    height: 30rem;
+    box-shadow: 5px 10px 20px  rgba(66, 70, 71, 0.61);
+    padding: 3rem 4rem;
     border-radius: 10px;
     text-align: center;
 
 }
 
 input{
-    background-color: rgb(11, 50, 82);
+    background-color:#fff;
     color: rgb(6, 50, 87);
 }
 input{
 border-radius: 4px;
-border: 1px solid rgba(0, 0, 0, 0.603);
+border: 1px solid rgba(0, 0, 0, 0.932);
 padding: 10px 20px;
 margin: 4px;
 }
 .btn{
-background-color:rgba(3, 47, 77, 0.911) ;
+background-color:#252839 ;
 color:white;
 padding:5px 20px ;
 margin-top: 10px;
@@ -53,30 +57,34 @@ font-size: 1rem;
 
 }
 .btn:hover{
-    background-color:rgba(3, 67, 112, 0.945);
+    background-color:#0b0c13;
 
 }
 .inputlogin::placeholder{
-color: white;
+color: #858484;
 }
 h2{
     font-size: 3rem;
-    color: white;
-    /* background-color: none !important; */
+    color:    #252839;
+    font-family: 'Nunito', sans-serif;
+
 }
 a{
     text-decoration: none;
     list-style: none;
   
-    color: rgb(4, 75, 116);
-    padding: 2px;
+    color: #252839;
+    padding: 3px;
     margin: 3px;
+    font-size: 1rem;
 }
 h1{
-    color: white;
-    font-size: 70px;
-    margin: 100px 100px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 5rem;
+    margin: 85px 100px;
+    font-family: 'Nunito', sans-serif;
+word-spacing: 12px;
+
 }
 
     .p2{
@@ -89,8 +97,27 @@ h1{
         margin: 20px 2px;
         /* background-color: white; */
     }.homep{
-        color: white;
-        background-color: none !important;
-        font-size: 1.5rem;
+        color: rgb(2, 45, 80);
+        /* background-color: none !important; */
+        font-size: 1.3rem;
+
+
+    }@media (max-width:700px){
+.main{
+    display: flex;
+    flex-direction: column;
+
+}
+.main .container h2{
+    font-size: 2rem;
+}
+input{
+    width: 11rem;
+}
+.main .container .btn
+{
+    width: 11rem;
+}
+
 
     }
